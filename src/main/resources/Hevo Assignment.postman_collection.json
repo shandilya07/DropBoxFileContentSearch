@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "60db727d-f051-48e0-aeee-22fbd6bbe9e3",
+		"name": "Hevo Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14490967"
+	},
+	"item": [
+		{
+			"name": "fetchFilesByKeyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/search/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"search",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EsSearchAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9200/files/_search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"files",
+						"_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EsTestController-saveFile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"testId\",\n    \"filePath\": \"/test/path/File.doc\",\n    \"fileContent\": \"alphacontent, alphafile, lol\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/es/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"es",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EsTestController-searchIndexByKeyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/es/search/ramendu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"es",
+						"search",
+						"ramendu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EsTestController-fetchAllInIndex",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/es/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"es",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EsTestController-purgeEntireIndex",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/es/purge",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"es",
+						"purge"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
