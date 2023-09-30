@@ -12,7 +12,7 @@ if that keyword isn't present.
 
 ## How to run this locally?
 1. In the properties file, replace the below entries accordingly
-   dropbox.accessToken = <YOUR_DROP_BOX_APP_TOKEN>
+   dropbox.accessToken = <YOUR_DROP_BOX_APP_TOKEN> (www.dropbox.com/developers/apps)
    spring.data.elasticsearch.cluster-names = <YOUR_ES_CLUSTER_NAME>
    spring.data.elasticsearch.cluster-node = <YOUR_ES_CLUSTER_NODE>
 2. Start the spring boot application
