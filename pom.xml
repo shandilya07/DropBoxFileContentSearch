@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.shandilya</groupId>
-	<artifactId>hevo</artifactId>
+	<artifactId>dboxsearch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hevo</name>
-	<description>Assignment for Hevo Data</description>
+	<name>dboxsearch</name>
+	<description>dboxsearch</description>
 	<properties>
 		<java.version>20</java.version>
 	</properties>

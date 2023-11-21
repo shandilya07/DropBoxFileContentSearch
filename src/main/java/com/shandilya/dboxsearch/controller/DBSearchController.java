@@ -1,9 +1,9 @@
-package com.shandilya.hevo.controller;
+package com.shandilya.dboxsearch.controller;
 
 import co.elastic.clients.elasticsearch.core.SearchResponse;
 import co.elastic.clients.elasticsearch.core.search.Hit;
-import com.shandilya.hevo.entity.DropBoxFile;
-import com.shandilya.hevo.service.ESSearchService;
+import com.shandilya.dboxsearch.entity.DropBoxFile;
+import com.shandilya.dboxsearch.service.ESSearchService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

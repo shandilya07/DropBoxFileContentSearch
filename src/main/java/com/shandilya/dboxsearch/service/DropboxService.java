@@ -1,6 +1,6 @@
-package com.shandilya.hevo.service;
+package com.shandilya.dboxsearch.service;
 
-import com.shandilya.hevo.entity.DropBoxFile;
+import com.shandilya.dboxsearch.entity.DropBoxFile;
 
 import java.util.List;
 

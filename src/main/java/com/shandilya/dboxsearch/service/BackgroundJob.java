@@ -1,6 +1,6 @@
-package com.shandilya.hevo.service;
+package com.shandilya.dboxsearch.service;
 
-import com.shandilya.hevo.entity.DropBoxFile;
+import com.shandilya.dboxsearch.entity.DropBoxFile;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

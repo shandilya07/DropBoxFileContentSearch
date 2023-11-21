@@ -1,11 +1,11 @@
-package com.shandilya.hevo.service;
+package com.shandilya.dboxsearch.service;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch._types.query_dsl.Query;
 import co.elastic.clients.elasticsearch.core.SearchResponse;
 import co.elastic.clients.elasticsearch.core.search.Hit;
-import com.shandilya.hevo.entity.DropBoxFile;
-import com.shandilya.hevo.util.ElasticSearchUtil;
+import com.shandilya.dboxsearch.entity.DropBoxFile;
+import com.shandilya.dboxsearch.util.ElasticSearchUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

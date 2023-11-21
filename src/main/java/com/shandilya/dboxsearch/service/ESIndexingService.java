@@ -1,7 +1,7 @@
-package com.shandilya.hevo.service;
+package com.shandilya.dboxsearch.service;
 
-import com.shandilya.hevo.entity.DropBoxFile;
-import com.shandilya.hevo.repo.FilesRepo;
+import com.shandilya.dboxsearch.entity.DropBoxFile;
+import com.shandilya.dboxsearch.repo.FilesRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

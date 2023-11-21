@@ -1,4 +1,4 @@
-package com.shandilya.hevo.service;
+package com.shandilya.dboxsearch.service;
 
 @FunctionalInterface
 public interface DropBoxActionHandler<T> {

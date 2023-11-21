@@ -1,4 +1,4 @@
-package com.shandilya.hevo.util;
+package com.shandilya.dboxsearch.util;
 
 import java.util.HashSet;
 import java.util.Set;

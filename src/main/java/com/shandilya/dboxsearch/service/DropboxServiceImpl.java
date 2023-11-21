@@ -1,13 +1,13 @@
-package com.shandilya.hevo.service;
+package com.shandilya.dboxsearch.service;
 
 import com.dropbox.core.v2.DbxClientV2;
 import com.dropbox.core.v2.files.FileMetadata;
 import com.dropbox.core.v2.files.FolderMetadata;
 import com.dropbox.core.v2.files.ListFolderResult;
 import com.dropbox.core.v2.files.Metadata;
-import com.shandilya.hevo.entity.DropBoxFile;
-import com.shandilya.hevo.exception.DropboxException;
-import com.shandilya.hevo.util.StringUtil;
+import com.shandilya.dboxsearch.entity.DropBoxFile;
+import com.shandilya.dboxsearch.exception.DropboxException;
+import com.shandilya.dboxsearch.util.StringUtil;
 import lombok.SneakyThrows;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;

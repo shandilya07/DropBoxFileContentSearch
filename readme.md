@@ -1,7 +1,4 @@
-# Consider this doc as a single pager PRD
-
-## Who is the target audience for this doc?
-Some one who is hands-on developer (Knowledge of Spring Boot & Elastic Search is expected)
+# Single pager PRD
 
 ## What does this application do?
 1. This application connects to your dropbox, scans for all the files across all the folders and indexes
@@ -18,6 +15,4 @@ if that keyword isn't present.
 2. Start the spring boot application
 3. If the drop box and es is setup and configured as mentioned in the step 1, the background job would
 start indexing and cleanup activities. Use the controller end point to search for the keyword
-4. Here is a postman collection for API reference, [Hevo Assignment.postman_collection.json](src%2Fmain%2Fresources%2FHevo%20Assignment.postman_collection.json)
 
-Thanks! 

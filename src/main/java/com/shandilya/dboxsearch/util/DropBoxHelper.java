@@ -1,7 +1,7 @@
-package com.shandilya.hevo.util;
+package com.shandilya.dboxsearch.util;
 
-import com.shandilya.hevo.service.ESIndexingService;
-import com.shandilya.hevo.service.ESSearchService;
+import com.shandilya.dboxsearch.service.ESIndexingService;
+import com.shandilya.dboxsearch.service.ESSearchService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

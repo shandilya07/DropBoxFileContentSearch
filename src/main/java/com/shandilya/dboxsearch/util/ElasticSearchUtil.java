@@ -1,4 +1,4 @@
-package com.shandilya.hevo.util;
+package com.shandilya.dboxsearch.util;
 
 import co.elastic.clients.elasticsearch._types.query_dsl.MatchAllQuery;
 import co.elastic.clients.elasticsearch._types.query_dsl.MatchQuery;

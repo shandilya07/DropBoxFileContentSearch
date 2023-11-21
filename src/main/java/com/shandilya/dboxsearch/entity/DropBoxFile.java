@@ -1,4 +1,4 @@
-package com.shandilya.hevo.entity;
+package com.shandilya.dboxsearch.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

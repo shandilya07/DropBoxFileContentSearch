@@ -1,4 +1,4 @@
-package com.shandilya.hevo.config;
+package com.shandilya.dboxsearch.config;
 
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
